@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:gravity="center"
+    android:background="#98FB98"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/burguer" />
+
+    <TextView
+
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:textColor="#696969"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/dosisextrabold"
+        android:text="Burguer de Lentilha" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/dosisextrabold"
+        android:text="Pão de hambúrguer vegano, guacamole (abacate, tomate, cebola roxa, salsinha e limão) e rúcula. Opte por shimeji refogado (vegano) ou queijo meia-cura (vegetariano)
+   "    android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="R$ 35,00"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/dosisextrabold"
+        android:layout_gravity="center_vertical"/>
+
+
+    <ProgressBar
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
